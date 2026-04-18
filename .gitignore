@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Session media and raw transcripts. These are recordings of actual people
+# playing a game; the repo ships the *summaries* as example output instead,
+# which is the part that shows what the tool does.
+*.mkv
+*.mp4
+*.wav
+*.mp3
+*_raw_transcript*.txt
+
+# Whisper model cache
+.cache/
